@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+  text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;           
+}
+
+li{
+    display: flex;
+    padding: 0px 45px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 25px 0px 30px;
+}
+
+.invite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 557px;
+    height: 374px;
+    gap: 32px;
+}
+
+.invite h1 {
+    font-family: "Roboto Mono", monospace;
+    color: #333333;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 74px;
+}
+
+.invite p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.65px;
+    color: #333333;
+}
+
+.invite button {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #333333;
+    width: 297px;
+    height: 66px;
+    border-radius: 40px;
+    padding: 24px 53px 24px 53px;
+}
+
+.media img {
+    width: 651px;
+}
+
+.invite button:hover {
+    cursor: pointer;
+    background-color: #4F4F4F;
+}
+
+.cards h1 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 84.41px;
+    color: #FFFFFF;
+}
+
+.cards h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 42.2px;
+    line-height: 42.2px;
+    color: #333333;
+}
+
+.cards p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.74px;
+    color: #333333;
+}
+
+.cards-youtube {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 34px 16px 34px;
+    width: 309px;
+    height: 326px;
+    background-color: #f1c2b0;
+    border-radius: 16px;
+}
+
+.cards-youtube__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+}
+
+.cards-tiktok {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 34px 16px 34px;
+    width: 309px;
+    height: 326px;
+    background-color: #f9eb98;
+    border-radius: 16px;
+}
+
+.cards-tiktok__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+}
+
+.cards-facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 34px 16px 34px;
+    width: 309px;
+    height: 326px;
+    background-color: #c0d9dd;
+    border-radius: 16px;
+}
+
+.cards-facebook__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+}
+
+.cards-instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 34px 16px 34px;
+    width: 309px;
+    height: 326px;
+    background-color: #6975e8;
+    border-radius: 16px;
+}
+
+.cards-instagram__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 100px 63px 48px 66px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center; 
+        align-content: center;
+    }
+
+    li {
+        padding: 4px 0;
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+}
