@@ -213,24 +213,206 @@ a:hover {
     padding: 100px 63px 48px 66px;
 }
 
-@media (max-width: 600px) {
+.cards figure {
+    position: relative;
+}
+
+.cards figure img {
+    position: absolute;
+    top: 24px;    
+    right: 23px;  
+    max-width: 100%; 
+    height: auto;    
+}
+
+@media (max-width: 769px) {
+    header {
+        padding: 20px;
+        font-size: 24px;
+    }
+
     nav ul {
         flex-direction: column;
-        align-items: center; 
-        align-content: center;
+        align-items: center;
+        justify-content: center;
     }
 
     li {
-        padding: 4px 0;
+        padding: 10px 0;
     }
 
+    #info {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .invite {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .invite h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .invite p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .invite button {
+        width: 80%;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .media img {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+        gap: 20px;
+    }
+
+    .cards figure {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cards-youtube, .cards-tiktok, .cards-facebook, .cards-instagram {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .cards h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .cards p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
     header {
-        padding: 25px;
+        padding: 15px 0px 15px 0px;
+        font-size: 20px;
     }
 
-    a:hover {
-        cursor: pointer;
-        text-decoration: underline;
+    .invite h1 {
+        font-size: 28px;
+        line-height: 36px;
     }
 
+    .invite p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .invite button {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .media img {
+        width: 100%;
+    }
+
+    .cards figure {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 40px;
+        font-size: 26px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .invite {
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        height: 318px;
+    }
+
+    .invite h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .invite p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .invite button {
+        width: 60%;
+        font-size: 20px;
+        padding: 22px;
+    }
+
+    .media img {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 70px 40px;
+        gap: 30px;
+    }
+
+    .cards figure {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .cards-youtube, .cards-tiktok, .cards-facebook, .cards-instagram {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .cards h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .cards p {
+        font-size: 17px;
+        line-height: 22px;
+    }
 }
