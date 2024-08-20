@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+  text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;           
+}
+
+li{
+    display: flex;
+    padding: 0px 45px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 25px 0px 30px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 25px 0px 30px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 557px;
+    height: 374px;
+    gap: 32px;
+}
+
+.download h1 {
+    font-family: "Roboto Mono", monospace;
+    color: #333333;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.download p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31.65px;
+    color: #333333;
+}
+
+.download button {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #333333;
+    width: 297px;
+    height: 66px;
+    border-radius: 40px;
+    padding: 24px 53px 24px 53px;
+}
+
+.mockups img {
+    width: 216px;
+    height: 469px;
+    border-radius: 30px;
+}
+
+.mockups {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    gap: 60px;
+}
+
+.download button:hover {
+    cursor: pointer;
+    background-color: #4F4F4F;
+}
+
+.second-main-content {
+    height: 650px;
+    background-color: #F4F2F2;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+
+.nav {
+    margin-top: 55px;
+}
+
+.nav a:hover {
+    cursor: default;
+    text-decoration: none;
+}
+
+.pricing-card__solo {
+    width: 240px;
+    height: 389px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px; 
+    border-radius: 25px 25px 0px 0px;
+}
+
+.pricing-header__solo h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pricing-header__solo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #6975E8;
+    padding: 25px 25px 25px 25px;
+    border-radius: 25px 25px 0 0;
+    color: #131925;
+    width: 100%;
+    height: 74px;
+}
+
+.pricing-body__solo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-body__solo p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8790A3;
+}
+
+.pricing-body__solo select option {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+}
+
+.pricing-body__solo select {
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+    width: 109%;
+    height: 34px;
+    border: 1px solid #E4E4E4;
+    border-radius: 18px;
+    padding: 7px 10px 12px 10px;
+    margin: 10px -10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-footer__solo {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button__solo {
+    background-color: #6975E8;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 9px 73px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card__profissional {
+    width: 240px;
+    height: 389px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px; 
+    border-radius: 25px 25px 0px 0px;
+}
+
+.pricing-header__profissional h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pricing-header__profissional {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EBE9E9;
+    padding: 25px 25px 25px 25px;
+    border-radius: 25px 25px 0 0;
+    color: #131925;
+    width: 100%;
+    height: 74px;
+}
+
+.pricing-body__profissional {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-body__profissional p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8790A3;
+}
+
+.pricing-body__profissional select option {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+}
+
+.pricing-body__profissional select {
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+    width: 109%;
+    height: 34px;
+    border: 1px solid #E4E4E4;
+    border-radius: 18px;
+    padding: 7px 10px 12px 10px;
+    margin: 10px -10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-footer__profissional {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button__profissional {
+    background-color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2F2E41;
+    border: 1px solid #929292;
+    padding: 9px 73px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card__corporative {
+    width: 240px;
+    height: 389px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px; 
+    border-radius: 25px 25px 0px 0px;
+}
+
+.pricing-header__corporative h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pricing-header__corporative {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EBE9E9;
+    padding: 25px 25px 25px 25px;
+    border-radius: 25px 25px 0 0;
+    color: #131925;
+    width: 100%;
+    height: 74px;
+}
+
+.pricing-body__corporative {
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-body__corporative select option {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+}
+
+.pricing-body__corporative select {
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131925;
+    width: 109%;
+    height: 34px;
+    border: 1px solid #E4E4E4;
+    border-radius: 18px;
+    padding: 7px 10px 12px 10px;
+    margin: 10px -10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-footer__corporative {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button__corporative {
+    background-color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2F2E41;
+    border: 1px solid #929292;
+    padding: 9px 43px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button__solo {
+    background-color: #6975E8;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 9px 73px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button__solo:hover {
+    background-color: #5763e3;
+    color: #ffffff;
+}
+
+.button__profissional {
+    background-color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2F2E41;
+    border: 1px solid #929292;
+    padding: 9px 73px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button__profissional:hover {
+    background-color: #f0f0f0;
+    color: #2F2E41;
+}
+
+.button__corporative {
+    background-color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2F2E41;
+    border: 1px solid #929292;
+    padding: 9px 43px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button__corporative:hover {
+    background-color: #f0f0f0;
+    color: #2F2E41;
+}
